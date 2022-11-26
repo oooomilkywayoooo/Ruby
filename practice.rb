@@ -4,3 +4,12 @@ class Car
   end
 end
 
+class Truck
+  def run(distance)
+    super
+    puts "大きな荷物を乗せて走ります。"
+  end
+end
+
+truck = Truck.new
+truck.run(5)
